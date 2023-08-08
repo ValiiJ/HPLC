@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>HPLC</title>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.3/jspdf.umd.min.js"></script>
+    <link rel="shortcut icon" href="imgs/teamspeak.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="divation-com-o">
+
+        <div class="fa-head">
+
+            <header class="headd">
+                <h2>Create List </h2>
+                <a href="index_page.html">
+                    <button type="button"> <i class="fa-solid fa-arrow-left"></i> Go back</button>
+                </a>
+            </header>
+
+            <div class="title-head">
+                <h5>Date of receipt: <span id="title-date"><input type="date"></span></h5>
+            </div>
+
+            <!-- Pjesa e dyte -->
+
+            <div class="divation-no">
+
+                <div class="divation_number_class">
+                    <h5>Serial Number: <span id="divation-number"><input type="text"></span></h5>
+                </div>
+
+                <div class="divation-category">
+                    <h5>Column Dimension: <span id="divation-number"><input type="text"></span></h5>
+
+                </div>
+
+            </div>
+
+            <!-- Pjesa e pare -->
+            <div class="divation-nu">
+                <div class="divation_serialn_internal">
+
+                    <h5>Internal Column ID: <span id="divation-number"><input type="text"></span></h5>
+                </div>
+
+                <div class="divation_column_make">
+
+                    <h5>Make: <span id="divation-number"><input type="text"></span></h5>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="info_button_add">
+
+
+            <!-- Input field with title "Register by" -->
+            <label for="register-by" class="label">Register by: <input type="text" id="register-by"></label>
+
+
+            <!-- Input field with title "Position" and word suggestions -->
+            <label for="position" class="label">Position: <input type="text" id="position"
+                    list="position-suggestions"></label>
+
+            <datalist id="position-suggestions">
+                <option value="Analyst">
+                <option value="Scientist">
+                <option value="Senior Scientist">
+                <option value="Principal Scientist">
+                <option value="Manager">
+
+
+            </datalist>
+
+            <!-- Input field with title "Date" -->
+            <label for="date" class="label">Date: <input type="date" id="date"></label>
+
+
+            <!-- Input field with title "Time" -->
+            <label for="time" class="label">Time: <input type="time" id="time"></label>
+
+
+            <!-- Input field for comments -->
+            <label for="comments" class="label">Comments: <input type="text" id="comments"></label>
+
+
+        </div>
+
+
+        <button type="button" id="id_button">Save</button>
+
+
+
+    </div>
+</body>
+
+</html>
