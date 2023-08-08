@@ -23,9 +23,6 @@ body {
 
 /* Stili për telefona */
 @media screen and (max-width: 600px) {
-    body {
-        font-size: 12px;
-    }
 
 
     .together {
@@ -39,9 +36,7 @@ body {
 
 /* Stili për telefona */
 @media screen and (max-width: 823px) {
-    body {
-        font-size: 12px;
-    }
+
 
 
     .together {
